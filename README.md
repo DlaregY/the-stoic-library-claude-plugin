@@ -10,7 +10,7 @@ When Claude calls a tool, it sends the endpoint short search terms or a passage 
 
 Privacy policy: https://thestoiclibrary.com/plugin/privacy
 Terms: https://thestoiclibrary.com/plugin/terms
-Support: https://norbonics.com/support (norbonics@outlook.com)
+Support: https://norbonics.com/support (support@norbonics.com)
 
 ## Install
 
