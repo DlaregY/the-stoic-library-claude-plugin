@@ -14,14 +14,14 @@ Support: https://norbonics.com/support (support@norbonics.com)
 
 ## Install
 
+Install [The Stoic Library from Claude's plugin directory](https://claude.ai/customize/plugins/id/dbb4176c-ffca-41f6-a4be-f75cf6e8d2dc%40anthropic-plugin-directory).
+
 In Claude Code:
 
 ```
 claude plugin marketplace add DlaregY/the-stoic-library-claude-plugin
 claude plugin install the-stoic-library@norbonics
 ```
-
-In Claude chat or Cowork, upload the release ZIP under Customize > Plugins > Upload plugin.
 
 ## Try it
 
