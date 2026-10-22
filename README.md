@@ -1,8 +1,8 @@
 # The Stoic Library
 
-Search the Stoic classics by topic or look up a passage by reference. Retrieve exact excerpts, named translations, whole letters and chapters, and surrounding context. Follow edition-specific links to read more in The Stoic Library. Search results are candidates for your assistant to evaluate; the tools do not generate philosophical advice or authenticate quotations absent from the indexed corpus.
+Search the Stoic classics by topic, look up a passage by reference, or check whether a quotation really appears in the texts. Retrieve exact excerpts, named translations, whole letters and chapters, and surrounding context, and see the real source wording when a quote is misremembered, misattributed or from a different translation. Follow edition-specific links to read more in The Stoic Library. Search results are candidates for your assistant to evaluate; the tools do not generate philosophical advice, and a quote missing from the library is reported as not found here, never as fake.
 
-This plugin bundles one remote MCP connector and one skill. The connector points to `https://thestoiclibrary.com/mcp`, a public, read-only, no-authentication endpoint operated by Gerald Norby. It exposes two tools: one searches the library's public-domain Stoic translations for candidate passages, and one retrieves exact text, edition metadata, surrounding sections and reading links. The skill tells Claude when to use those tools and how to quote, attribute and paginate their results.
+This plugin bundles one remote MCP connector and one skill. The connector points to `https://thestoiclibrary.com/mcp`, a public, read-only, no-authentication endpoint operated by Gerald Norby. It exposes three tools: one searches the library's public-domain Stoic translations for candidate passages, one retrieves exact text, edition metadata, surrounding sections and reading links, and one checks claimed quotations against the source text. The skill tells Claude when to use those tools and how to quote, attribute and paginate their results.
 
 ## What the plugin sends and receives
 
@@ -27,6 +27,6 @@ claude plugin install the-stoic-library@norbonics
 
 - Find Stoic passages about anger after criticism.
 - Show me Enchiridion 20 in Elizabeth Carter's translation.
-- Read Seneca Letter 1 and show its source.
+- Did Marcus Aurelius really say 'You have power over your mind, not outside events'?
 
 Search results are candidates, not verified answers. An empty search does not prove a quotation inauthentic.

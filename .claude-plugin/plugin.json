@@ -1,8 +1,8 @@
 {
   "name": "the-stoic-library",
   "displayName": "The Stoic Library",
-  "version": "1.0.1",
-  "description": "Find Stoic source passages with exact text, named translations, citations and surrounding context.",
+  "version": "1.1.0",
+  "description": "Find and verify Stoic source passages with exact text, named translations, citations and surrounding context.",
   "author": {
     "name": "Gerald Norby",
     "email": "support@norbonics.com",

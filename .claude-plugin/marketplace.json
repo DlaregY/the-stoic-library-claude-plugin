@@ -9,7 +9,7 @@
     {
       "name": "the-stoic-library",
       "source": "./",
-      "description": "Find Stoic source passages with exact text, named translations, citations and surrounding context."
+      "description": "Find and verify Stoic source passages with exact text, named translations, citations and surrounding context."
     }
   ]
 }
